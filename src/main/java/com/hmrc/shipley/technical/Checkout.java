@@ -4,7 +4,7 @@ import java.util.List;
 
 interface Checkout {
 
-	void setCost(String item, Integer costInPence);
+	void setSoldItem(String item, Item itemSold);
 
 	String total(List<String> basket);
 }
